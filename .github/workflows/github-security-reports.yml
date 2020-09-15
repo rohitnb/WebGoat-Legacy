@@ -1,0 +1,11 @@
+name: Create report
+
+on: workflow_dispatch
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: GitHub Security Report Action
+        uses: peter-murray/github-security-report-action@v1
