@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: GitHub Security Report Action
         uses: peter-murray/github-security-report-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
