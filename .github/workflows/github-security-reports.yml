@@ -7,6 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+      - name: Random commands
+        run: |
+          pwd
+          ls
       - name: GitHub Security Report Action
         uses: peter-murray/github-security-report-action@v1
         with:
